@@ -8,7 +8,7 @@ This Google Apps Script fetches the latest AI news and AI accounts to follow, sh
 ## Functionality:
 - **Fetches AI News**: Uses the GNews API to retrieve the latest AI-related articles.
 - **Shortens URLs**: Utilizes TinyURL to shorten the URLs of news articles.
-- **Sends to WhatsApp**: Sends a summary of the AI news and a list of recommended AI accounts to follow to a specified WhatsApp group.
+- **Sends to WhatsApp**: Sends a summary of the AI news and a list of recommended AI accounts to follow to a specified WhatsApp number.
 - **Fetches AI Accounts**: Uses the Google Custom Search API to find AI experts and shares their profiles.
 
 ## Requirements:
@@ -18,7 +18,7 @@ This Google Apps Script fetches the latest AI news and AI accounts to follow, sh
 
 ## Scheduling:
 - You can **automatically trigger the script** to run at a scheduled time (e.g., daily, hourly) by setting up a time-driven trigger in Google Apps Script.
-- The script will fetch and send updates to WhatsApp at the specified time, ensuring the group stays updated without manual intervention.
+- The script will fetch and send updates to WhatsApp at the specified time, ensuring the contact stays updated without manual intervention.
 
 ---
 
