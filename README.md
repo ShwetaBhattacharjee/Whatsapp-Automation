@@ -3,7 +3,7 @@
 # WhatsApp Automated AI News & Accounts Script
 
 ## Overview:
-This Google Apps Script fetches the latest AI news and AI accounts to follow, shortens URLs, and sends the updates to a WhatsApp group using the CallMeBot API. It automates the process of keeping a WhatsApp group updated with the latest AI headlines and expert profiles.
+This Google Apps Script fetches the latest AI news and AI accounts to follow, shortens URLs, and sends the updates to a WhatsApp contact number using the CallMeBot API. It automates the process of keeping a WhatsApp group updated with the latest AI headlines and expert profiles.
 
 ## Functionality:
 - **Fetches AI News**: Uses the GNews API to retrieve the latest AI-related articles.
