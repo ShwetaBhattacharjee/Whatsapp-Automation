@@ -10,7 +10,7 @@ function shortenUrlWithTinyURL(url) {
 
 function sendAINewsToWhatsApp() {
   // GNews API key
-  var apiKey = "7493b6ec92b6315727df157a56230cab";  // Your GNews API key
+  var apiKey = " ";  // Your GNews API key
   
   // URL to fetch AI news from GNews
   var gnewsUrl = "https://gnews.io/api/v4/search?q=artificial+intelligence&token=" + apiKey;
@@ -49,9 +49,9 @@ function sendAINewsToWhatsApp() {
 
 // Function to send message via WhatsApp
 function sendMessageToWhatsApp(message) {
-  var phoneNumber = "+6589160346";  // Your WhatsApp number (Sender)
-  var apikey = "3693057";  // Your CallMeBot API key
-  var groupId = "FEBZ3eXKPrQF5I0EYg3JpY";  // Your WhatsApp Group ID
+  var phoneNumber = " ";  // Your WhatsApp number (Sender)
+  var apikey = " ";  // Your CallMeBot API key
+  var groupId = " ";  // Your WhatsApp Group ID
   
   // Prepare the URL to send message via CallMeBot API (to the group)
   var url = "https://api.callmebot.com/whatsapp.php?phone=" + phoneNumber + "&text=" + encodeURIComponent(message) + "&apikey=" + apikey + "&chatId=" + groupId;
@@ -62,8 +62,8 @@ function sendMessageToWhatsApp(message) {
 
 // Function to fetch AI accounts to follow using Google Custom Search API
 function fetchAIAccountsFromGoogleSearch() {
-  var apiKey = "AIzaSyDSvCDzrkLv19m7aavjAsc4rsp534SFjbY";
-  var cx = "e730141786cdb42f9";
+  var apiKey = " ";
+  var cx = " ";
 
   var query = "AI experts site:x.com";
 
